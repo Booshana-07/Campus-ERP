@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #1f2430;
+}
+
+.nav-pills .nav-link {
+  border-radius: 8px;
+}
+
+.nav-pills .nav-link.active {
+  font-weight: 600;
+}
+
+.nav-pills .nav-link:not(.active):hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.leaflet-container {
+  border-radius: 8px;
+}
+
+/* Phase 2 UI polish (Feature 11) — calmer cards, clearer hierarchy. */
+.card {
+  border: 1px solid #e9ecef;
+  border-radius: 10px;
+}
+
+.card .card-title {
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.table > :not(caption) > * > * {
+  padding: 0.6rem 0.75rem;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f8f9fb;
+}
+
+/* A left colour rail on rows so P1/CRITICAL work is obvious at a glance. */
+.row-p1 {
+  box-shadow: inset 4px 0 0 0 #dc3545;
+}
+.row-p2 {
+  box-shadow: inset 4px 0 0 0 #fd7e14;
+}
+.row-p3 {
+  box-shadow: inset 4px 0 0 0 #0dcaf0;
+}
+.row-p4 {
+  box-shadow: inset 4px 0 0 0 #adb5bd;
+}
+
+.stat-card {
+  border: 1px solid #e9ecef;
+  border-left-width: 4px;
+  border-radius: 10px;
+}
+
+.timeline-line {
+  height: 3px;
+  border-radius: 2px;
+}
+
+/* Keep long descriptions readable inside detail tables. */
+.detail-table th {
+  width: 180px;
+  font-weight: 600;
+  color: #5a6172;
+}
+
+@media (max-width: 576px) {
+  .detail-table th {
+    width: 120px;
+  }
+}

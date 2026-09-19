@@ -1,0 +1,15 @@
+backend/campus_emergency.db
+backend/tests/_phase2_sim.db
+backend/.sensora_secret
+backend/uploads/
+backend/.env
+backend/__pycache__/
+backend/app/__pycache__/
+backend/app/routers/__pycache__/
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+.DS_Store
+
+# Phase 3A — auto-generated token signing secret. Never commit this.
+backend/.sensora_secret
